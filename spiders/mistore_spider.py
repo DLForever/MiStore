@@ -122,7 +122,7 @@ class MiSpider(Spider):
 
         browser.find_element_by_xpath(r"/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/input").send_keys("18879451035")  # 修改为自己的用户名
 
-        browser.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/input").send_keys("lyh915348696")
+        browser.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/input").send_keys("53")
         browser.find_element_by_xpath(r'/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[5]').click()
 
         link = response.css('div.col-xs-10.search_repadding2.f18 a::attr(href)').extract_first()  # 取得公司信息链接
