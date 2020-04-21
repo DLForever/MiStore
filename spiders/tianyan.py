@@ -20,7 +20,7 @@ class TianYanSpider(scrapy.Spider):
         #browser.find_element_by_name("account").clear()
         browser.find_element_by_xpath(r"/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/input").send_keys("18879451035")  # 修改为自己的用户名
         #browser.find_element_by_name("password").clear()
-        browser.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/input").send_keys("lyh915348696")
+        browser.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/input").send_keys("43536666")
         browser.find_element_by_xpath(r'/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[5]').click()
         time.sleep(5)
 
